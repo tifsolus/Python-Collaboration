@@ -11,7 +11,7 @@ def show_award(first_name, last_name, award):
     try:
         if (first_name != "") and (last_name != ""):
             name_to_print = f"{first_name}, {last_name}"
-            prefix_award = "has made the" if award else "has no awards"            
+            prefix_award = "has made the" if award else "has no awards"
             notification = f"{name_to_print} {prefix_award} {award}"
             print(notification)
         else:
