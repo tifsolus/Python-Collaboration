@@ -9,6 +9,7 @@ from automobile import Automobile, Vehicle_Type, Roof_Type, Door_Type
 
 
 def main():
+    count = 1
     while True:
         try:
             # get the vehicle year
@@ -50,9 +51,10 @@ def main():
                 return False
             vehicle_roof_value = getattr(Roof_Type, vehicle_roof.title())
             # init automobile object
+            
             my_automobile = Automobile(vehicle_type_value, vehicle_year, vehicle_make, vehicle_model,vehicle_door_value,vehicle_roof_value)
             text = f"""
-            Results:
+            Result #: {count}
             Vehicle type: {my_automobile.type.value.title()}
             Year: {my_automobile.year}
             Make: {my_automobile.make.title()}
@@ -61,6 +63,7 @@ def main():
             Type of roof:{my_automobile.roof_type.value.title()}
             """
             print(text)
+            count += 1            
         except:
             print("An exception occurred, try enter correct option")
             return False
