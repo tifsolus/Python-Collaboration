@@ -7,7 +7,6 @@
 from vehicle import Vehicle, Vehicle_Type, Door_Type, Roof_Type
 
 class Automobile(Vehicle):
-    """docstring"""
     """
     Attributes:    
     year

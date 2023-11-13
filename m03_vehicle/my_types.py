@@ -1,3 +1,9 @@
+''' 
+@Program: my_types
+@Author: Donald Osgood
+@Last Date: 2023-11-12 21:00:06
+@Purpose: Class for types
+'''
 from enum import Enum
 class Vehicle_Type(Enum):    
     Car = "car"
