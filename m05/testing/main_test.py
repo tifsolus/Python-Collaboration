@@ -11,6 +11,11 @@ from utils.conversions import truncate_to_decimal
 
 
 class TestSum(unittest.TestCase):
+    """_summary_
+
+    Args:
+        unittest (_type_): unittest ibject
+    """    
     def test_list_int(self):
         """
         Test that it can sum a list of integers
