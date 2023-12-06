@@ -2,7 +2,7 @@
 @Program: 15_1
 @Author: Donald Osgood
 @Last Date: 2023-12-05 22:36:12
-@Purpose:Donald Osgood
+@Purpose: run multi processing
 """
 import multiprocessing
 import time
